@@ -29,7 +29,7 @@ volatile float Altitude=0;
 #define RATE   1
 #define size_t	 u8
 #define uint8_t  u8
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 //50hz  2hz
 const static float b_baro_pressure[3]={0.01335920002786,  0.02671840005571,  0.01335920002786};
 const static float a_baro_pressure[3]={1,   -1.647459981077,   0.7008967811884};

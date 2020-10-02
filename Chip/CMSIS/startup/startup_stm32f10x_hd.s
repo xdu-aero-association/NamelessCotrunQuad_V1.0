@@ -38,7 +38,7 @@
 ;
 ; Cortex-M version
 ;
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
     MODULE  ?cstartup
 
         ;; Forward declaration of sections.

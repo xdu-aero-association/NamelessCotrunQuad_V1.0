@@ -25,7 +25,7 @@
         *               Copyright(C) 武汉科技大学无名科创团队 2017-2019
         *               All rights reserved
 ----------------------------------------------------------------------------------------------------------------------*/
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 void imuComputeRotationMatrix(void);
 float Yaw=0,Pitch=0,Roll=0;//四元数计算出的角度
 float Yaw_Gyro=0,Pitch_Gyro=0,Roll_Gyro=0;
@@ -296,4 +296,3 @@ void AHRSUpdate_GraDes_Delay_Corretion(float gx, float gy, float gz, float ax, f
 		Yaw_Correct=Yaw;//0~360
 	        imuComputeRotationMatrix();
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/

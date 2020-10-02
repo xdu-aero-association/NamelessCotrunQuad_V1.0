@@ -42,7 +42,7 @@ void TIM2_Configuration_Cnt(void)
     TIM_ITConfig(TIM2, TIM_IT_Update, ENABLE);
     TIM_Cmd(TIM2, ENABLE);
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 
 #define Hour         3
 #define Minute       2
@@ -88,4 +88,3 @@ void Test_Period(Testime *Time_Lab)
    Time_Lab->Time_Delta=Time_Lab->Now_Time-Time_Lab->Last_Time;
    Time_Lab->Time_Delta_INT=(uint16)(Time_Lab->Time_Delta);
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/

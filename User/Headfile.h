@@ -24,7 +24,7 @@
         *               Copyright(C) 武汉科技大学无名科创团队 2017-2019
         *               All rights reserved
 ----------------------------------------------------------------------------------------------------------------------*/
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 #define PI 3.1415926535898
 #define CNTLCYCLE  0.005f
 #define AHRS_DT  0.005f
@@ -260,7 +260,7 @@ typedef struct
   uint16 Mag_Okay:1;
   uint16 Baro_Okay:1;
 }Sensor_Okay_Flag;
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 extern float AirPresure_Altitude;
 extern u32 Test_Cnt1,Test_Cnt2;
 extern Sensor_Okay_Flag Sensor_Init_Flag;

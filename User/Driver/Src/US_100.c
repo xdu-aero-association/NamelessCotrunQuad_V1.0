@@ -96,7 +96,7 @@ void HC_SR04_UP()
   EXTI_InitStructure.EXTI_LineCmd= ENABLE;
   EXTI_Init(&EXTI_InitStructure);
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 void HC_SR04_DN()
 {
   GPIO_InitTypeDef  GPIO_InitStructure;
@@ -146,7 +146,7 @@ void EXTI1_IRQHandler(void)
   }
   EXTI_ClearITPendingBit(EXTI_Line1);
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 
 
 

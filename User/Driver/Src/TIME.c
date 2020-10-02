@@ -24,7 +24,7 @@
         *               Copyright(C) 武汉科技大学无名科创团队 2017-2019
         *               All rights reserved
 ----------------------------------------------------------------------------------------------------------------------*/
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 void Timer4_Configuration(void)
 {
 TIM_TimeBaseInitTypeDef TIM_TimeBaseStructure;
@@ -40,7 +40,7 @@ TIM_ITConfig(TIM4,TIM_IT_Update,ENABLE);
 TIM_Cmd(TIM4, ENABLE);
 }
 
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
+
 uint8 US_100_Start=0,US_100_Finished=1,US_100_Sampling_Cnt=0,US_100_Retry_Cnt=0;
 uint8 ADNS3080_Cnt=0;
 uint8 HC_SR04_Cnt=0;
@@ -118,4 +118,3 @@ void TIM4_IRQHandler(void)//5ms刷新一次
     TIM_ClearITPendingBit(TIM4,TIM_FLAG_Update);
  }
 }
-/***************************觉得不错，欢迎打赏，请小哥吃热干面：支付宝账号：1094744141@qq.com*********************************/
